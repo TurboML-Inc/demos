@@ -1,19 +1,33 @@
-# Demos
+# TurboML Examples: Real-Time ML
 
-This folder contains two Python scripts that demonstrate comparative analyses of machine learning models in different scenarios. Each script provides insights into the performance and characteristics of the models being studied.
+Welcome to the **TurboML** demo examples repository! This repository showcases how to build and deploy machine learning pipelines that handle **real-time data** using TurboML’s platform. Whether you’re exploring **incremental learning**, analyzing the **effects of retraining**, or enriching **LLM prompts** with live features, these notebooks demonstrate end-to-end workflows to jumpstart your own real-time ML solutions.
 
-## Files
+## Why TurboML?
 
-### 1. `effects-of-retraining/effects_of_retraining.ipynb`
-This script focuses on evaluating the performance of **Static**, **Batch**, and **Online Incremental Learning** models in dynamic data environments. Key highlights include:
-- **Windowed Accuracy Analysis**: A metric for understanding model performance over time in evolving data streams.
-- **Comparative Insights**: Analysis of the advantages and trade-offs of retraining models versus using incremental learning techniques.
+**TurboML** is a machine learning platform **reinvented for real-time**. That means everything—from data ingestion and feature engineering to modeling and deployment—is designed to handle streaming or rapidly changing data with minimal latency. 
 
-### 2. `why-incremental-stateful-algorithms/comparison_with_xgboost.ipynb`
-This script compares the performance of **Online Incremental Learning** models with **XGBoost** in dynamic data environments. Key highlights include:
-- **Scenario-Based Analysis**: Explores how different learning models adapt to changing data distributions.
-- **Visualization and Metrics**: Detailed visualizations and performance metrics for direct comparison.
+## Repository Contents
 
-## Note
-- These scripts are intended to be executed within the Google Colab environment to utilize its pre-configured setup and resources.
-- You can get the `BACKEND_URL` and `API_KEY` after you signup on [TurboML](https://turboml.com/).
+### 1. `effects-of-retraining/`
+- **`effects_of_retraining.ipynb`**  
+  - Shows how **Static**, **Batch**, and **Online Incremental Learning** models perform over time.  
+  - Includes a **Windowed Accuracy Analysis** to illustrate performance in dynamic environments.  
+  - Explores trade-offs between frequent retraining and using incremental techniques.
+
+### 2. `real-time-data-with-llms/`
+- **`prompts-with-real-time-data.ipynb`**  
+  - Demonstrates how to **inject fresh data** from TurboML’s feature store into LLM prompts.
+
+### 3. `real-time-streaming-data/`
+- **`streaming-anomaly-detection-stock-data.ipynb`**  
+  - Showcases an end-to-end pipeline for **anomaly detection** on streaming stock data.   
+  - Learn how to set up continuous model updates with minimal latency.
+
+### 4. `why-incremental-stateful-algorithms/`
+- **`comparison_with_xgboost.ipynb`**  
+  - Compares **Online Incremental Learning** models with **XGBoost** in dynamic data scenarios.  
+  - Highlights how incremental models adapt to data distribution shifts without the overhead of repeated full-batch retraining.
+
+> **Note**: You can get the `BACKEND_URL` and `API_KEY` after you signup on [TurboML](https://turboml.com/). These notebooks are designed to run in **Google Colab** or a similar environment. 
+
+Enjoy exploring these examples and building your own real-time ML pipelines with **TurboML**!  
