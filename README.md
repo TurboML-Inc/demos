@@ -16,7 +16,7 @@ Welcome to the **TurboML** demo examples repository! This repository showcases h
 
 ### 2. `real-time-data-with-llms/`
 - **`prompts-with-real-time-data.ipynb`**  
-  - Demonstrates how to **inject fresh data** from TurboML’s feature store into LLM prompts.
+  - Demonstrates how to **inject fresh data** from TurboML’s feature platform into LLM prompts.
 
 ### 3. `real-time-streaming-data/`
 - **`streaming-anomaly-detection-stock-data.ipynb`**  
